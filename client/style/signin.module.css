@@ -1,0 +1,41 @@
+.signin {
+    background-color: var(--colormain);
+    padding: 200px;
+    height: 54vw;
+    
+    opacity: 0.7;
+  }
+  
+  .divsignin {
+    background-color: white;
+    width: 85vw;
+    height: 30vw;
+    padding-top: 300px;
+    position: absolute;
+    left: 100px;
+    bottom: 200px;
+    box-shadow: 4px 4px 20px 20px rgba(102, 102, 102, 0.2);
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+  }
+  
+  .detalis {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 150px;
+  }
+  
+  .input {
+    width: 30%;
+    font-family: 'cairo';
+    margin-top: 30px;
+  }
+  
+  .linkCreateAccount{
+      text-decoration: none;
+  }

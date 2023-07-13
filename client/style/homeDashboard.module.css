@@ -1,0 +1,64 @@
+.divheader {
+  padding: 90px;
+  padding-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: var(--colormain); */
+  height: 250px;
+
+  background: linear-gradient(45deg, #1abbcd, #1abbcd);
+  /* clip-path: polygon(0% 0%, 20% 0%, 100% 0%, 120% 10%, 0% 100%);  */
+}
+
+.logo {
+  font-size: 30px;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.login {
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.parentcards {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 120px;
+  padding-right: 150px;
+  width: 100%;
+  position: relative;
+  bottom: 80px;
+}
+.card {
+  box-shadow: 0px 20px 10px -5px #f1f2f5;
+  padding: 20px;
+  background-color: #ffffff;
+  margin-right: 10px;
+  border-radius: 18px;
+}
+
+.iconcard {
+  font-size: 25px;
+  color: #ff7266;
+  background-color: #fff1f0;
+  border-radius: 12px;
+  height: 45px;
+  width: 60px;
+  padding: 8px;
+}
+
+.titlecard {
+  color: #aaacad;
+  font-weight: 600;
+}
+
+.numbercard {
+  color: var(--colortext);
+  font-size: 22px;
+  text-align: center;
+  font-weight: 900;
+}

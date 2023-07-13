@@ -1,0 +1,13 @@
+.colored_div {
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(45deg, #678283, #1a1f39);
+  clip-path: polygon(0% 25%, 100% 0%, 100% 100%, 90% 100%, 0% 100%);
+}
+
+.welcomingFooter {
+  padding-top: 20px;
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 600;
+}
